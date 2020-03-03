@@ -1,0 +1,5 @@
+GET http://localhost:7071/api/SayHello
+
+###
+
+GET https://okzkapp-func.azurewebsites.net/api/SayHello?code=sMaFhet5gD1hnD4VeSrD8yyq0lw0NC9SQRgw94EimmcFg0DgN5ouqQ==
