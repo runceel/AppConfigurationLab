@@ -9,7 +9,7 @@ namespace AppConfigFunc
 {
     public class Startup : FunctionsStartup
     {
-        public static IConfiguration Configuration { get; private set; }
+        public IConfiguration Configuration { get; }
 
         public Startup()
         {
