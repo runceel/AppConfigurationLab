@@ -1,0 +1,1 @@
+az group deployment create  --resource-group AppConfigLab-rg --template-file .\azuredeploy.json --parameters `@azuredeploy.parameters.json
