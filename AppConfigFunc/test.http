@@ -3,3 +3,12 @@ GET http://localhost:7071/api/SayHello
 ###
 
 GET https://okzkapp-func.azurewebsites.net/api/SayHello?code=sMaFhet5gD1hnD4VeSrD8yyq0lw0NC9SQRgw94EimmcFg0DgN5ouqQ==
+
+
+###
+POST https://outlook.office.com/webhook/c02280b7-7185-4883-ae0b-9b909147b166@72f988bf-86f1-41af-91ab-2d7cd011db47/IncomingWebhook/89289b83cc284eb49eaf9082507cb1c2/b21fd808-18fe-43a1-8130-e6acefa9f440
+Content-Type: application/json
+
+{
+    "text": "誰でも投稿し放題 from 大田"
+}
